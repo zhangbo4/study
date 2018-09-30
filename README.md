@@ -1,4 +1,4 @@
 # study
 
 
-学习使用 github
+练习代码
