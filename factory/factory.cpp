@@ -1,3 +1,4 @@
+//参考文档 https://www.cnblogs.com/cxjchen/p/3143633.html
 #include <iostream>
 
 //简单的工厂模式
