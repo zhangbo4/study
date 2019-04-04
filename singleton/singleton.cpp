@@ -67,7 +67,6 @@ Singleton Singleton::m_instance = Singleton();
 //     {
 //         if (m_ptr == NULL) 
 //         {
-//             std::mutex m_mutex;
 //             std::lock_guard<std::mutex> guard(m_mutex);
 //             if (m_ptr == NULL) 
 //             {
@@ -87,8 +86,10 @@ Singleton Singleton::m_instance = Singleton();
 //     Singleton& operator=(const Singleton &);
 
 //     static Singleton* m_ptr;
+//     static std::mutex m_mutex;
 // };
 // Singleton* Singleton::m_ptr = NULL;
+// std::mutex Singleton::m_mutex;
 
 
 int main() 
